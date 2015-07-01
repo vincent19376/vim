@@ -431,7 +431,7 @@ Bundle 'git://github.com/wincent/command-t.git'
 Bundle 'Auto-Pairs'
 Bundle 'python-imports.vim'
 Bundle 'CaptureClipboard'
-Bundle 'ctrlp-modified.vim'
+" Bundle 'ctrlp-modified.vim'
 Bundle 'last_edit_marker.vim'
 Bundle 'synmark.vim'
 "Bundle 'Python-mode-klen'
@@ -442,7 +442,7 @@ Bundle 'Javascript-OmniCompletion-with-YUI-and-j'
 Bundle 'jslint.vim'
 Bundle "pangloss/vim-javascript"
 Bundle 'Vim-Script-Updater'
-Bundle 'ctrlp.vim'
+" Bundle 'ctrlp.vim'
 Bundle 'tacahiroy/ctrlp-funky'
 Bundle 'jsbeautify'
 Bundle 'The-NERD-Commenter'
@@ -450,8 +450,14 @@ Bundle 'The-NERD-Commenter'
 Bundle 'django_templates.vim'
 Bundle 'Django-Projects'
 
-"vincent
+"vincent's
 Plugin 'bling/vim-airline'
+let g:airline_theme='dark'
+Plugin 'wting/rust.vim'
+Plugin 'phildawes/racer'
+Plugin 'klen/python-mode'
+Plugin 'scrooloose/syntastic'
+Plugin 'AfterColors.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 
 "Bundle 'FredKSchott/CoVim'
@@ -475,3 +481,10 @@ let g:ctrlp_extensions = ['funky']
 let NERDTreeIgnore=['\.pyc']
 
 set t_Co=256
+
+"
+"代码提示颜色设置
+"
+
+highlight Pmenu guibg=brown gui=bold
+
