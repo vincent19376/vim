@@ -450,6 +450,10 @@ Bundle 'The-NERD-Commenter'
 Bundle 'django_templates.vim'
 Bundle 'Django-Projects'
 
+"vincent
+Plugin 'bling/vim-airline'
+Plugin 'christoomey/vim-tmux-navigator'
+
 "Bundle 'FredKSchott/CoVim'
 "Bundle 'djangojump'
 " ...
